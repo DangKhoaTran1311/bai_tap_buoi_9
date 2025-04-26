@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Bài 1: Tính Lương Nhân Viên  -->
+    <h1>Tính Lương Theo Số Ngày Làm</h1>
+
+    <div>
+        <label for="soNgayLam">Số ngày làm:</label>
+        <input type="number" id="soNgayLam">
+    </div>
+
+    <div>
+        <label for="luongMotNgay">Lương một ngày:</label>
+        <input type="number" id="luongMotNgay" value="100000" readonly>
+        <small>(Đơn vị: VNĐ)</small>
+    </div>
+
+    <button onclick="tinhTongLuong()">Tính Lương</button>
+
+    <div id="ketQuaLuong">
+        <h2>Kết quả:</h2>
+        <p id="tongLuong"></p>
+    </div>
+<!-- <script src="./salary.js"></script> -->
+
+
+
+<!-- Bài 2: Tính Giá Trị Trung Bình -->
+<h1>Tính Trung Bình Cộng của 5 Số</h1>
+
+<div>
+    <label for="so1">Số thứ nhất:</label>
+    <input type="number" id="so1">
+</div>
+
+<div>
+    <label for="so2">Số thứ hai:</label>
+    <input type="number" id="so2">
+</div>
+
+<div>
+    <label for="so3">Số thứ ba:</label>
+    <input type="number" id="so3">
+</div>
+
+<div>
+    <label for="so4">Số thứ tư:</label>
+    <input type="number" id="so4">
+</div>
+
+<div>
+    <label for="so5">Số thứ năm:</label>
+    <input type="number" id="so5">
+</div>
+
+<button onclick="tinhTrungBinh()">Tính Trung Bình</button>
+
+<div id="ketQuaTrungBinh">
+    <h2>Kết quả:</h2>
+    <p id="trungBinh"></p>
+</div>
+<!-- <script src="average_value.js"></script> -->
+
+
+
+<!-- Bài 3: Quy đổi tiền  -->
+<h1>Quy Đổi Tiền USD Sang VND</h1>
+
+<div>
+    <label for="tienUSD">Tiền USD Đang Có:</label>
+    <input type="number" id="tienUSD">
+</div>
+
+<div>
+    <label for="giaUSDMoiNhat">Giá USD Mới Nhất:</label>
+    <input type="number" id="giaUSDMoiNhat" value="23500" readonly>
+    <small>(Đơn vị: VNĐ)</small>
+</div>
+
+<button onclick="quyDoiTien()">Quy Đổi</button>
+
+<div id="ketQuaQuyDoi">
+    <h2>Kết quả:</h2>
+    <p id="tienVietSauQuyDoi"></p>
+</div>
+<script src="./currency_exchange.js"></script>
+
+
+
+
+
+    <!-- Bài 4: Tính Diện Tích Và Chu Vi Hình Chữ Nhật  -->
+    <h1>Tính Diện Tích và Chu Vi Hình Chữ Nhật</h1>
+
+    <div>
+        <label for="chieuDai">Chiều dài:</label>
+        <input type="number" id="chieuDai">
+    </div>
+
+    <div>
+        <label for="chieuRong">Chiều rộng:</label>
+        <input type="number" id="chieuRong">
+    </div>
+
+    <button onclick="tinhDienTichChuVi()">Tính</button>
+
+    <div id="ketQua">
+        <h2>Kết quả:</h2>
+        <p id="dienTich"></p>
+        <p id="chuVi"></p>
+        <p id="thongBao"></p>
+    </div>
+      <!-- <!-- <script src="./perimeter_of_rectangle.js"></script> -->
+
+
+   
+</body>
+
+</html>
